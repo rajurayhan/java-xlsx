@@ -6,7 +6,7 @@ require_once './getID3/getid3/getid3.php';
     $url = 'https://gaan.app/api/api/tracks/playweb';
     $userId = 'sgekyuAoNleN5vQWiumDvVZ0yQ52';
     $intialId = 8360;
-    for($index = 1; $index <= 1000; $index++){
+    for($index = 7000; $index <= 10000; $index++){
         $params = array(
             'userUid' => $userId,
             'id' => $index
